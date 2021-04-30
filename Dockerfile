@@ -8,7 +8,7 @@ RUN apk add git
 WORKDIR /opt
 RUN git clone https://github.com/input-output-hk/plutus
 RUN cd plutus && git fetch && git rebase
-RUN cd plutus && git checkout 3aa86304e9bfc425667051a8a94db73fcdc38878
+RUN cd plutus && git checkout 47bee0d683857655d60c230a8b25ab7058c54d55
 
 WORKDIR /opt/plutus
 
